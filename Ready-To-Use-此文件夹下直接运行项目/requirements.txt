@@ -1,0 +1,29 @@
+# 跳一跳终结者 - 独立运行版本依赖
+# 直接运行 jump_jump_ai_player.py 所需的最小依赖
+
+# 深度学习和计算机视觉
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0
+opencv-python>=4.5.0
+
+# 图像处理
+Pillow>=9.0.0
+numpy>=1.21.0
+
+# GUI界面
+tkinter  # Python内置，通常无需安装
+
+# 屏幕截图和控制
+mss>=9.0.0
+pyautogui>=0.9.54
+pynput>=1.7.6
+
+# 其他工具
+pathlib2>=2.3.0  # 向后兼容
+rich>=13.0.0  # 命令行美化 (可选)
+
+# 注意事项：
+# 1. macOS用户可能需要授予"辅助功能"和"屏幕录制"权限
+# 2. Windows用户确保安装了Visual C++运行库
+# 3. 如果遇到权限问题，请以管理员身份运行
