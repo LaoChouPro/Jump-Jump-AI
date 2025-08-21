@@ -1,12 +1,14 @@
 # 跳一跳终结者
 
-基于YOLO深度学习框架的微信跳一跳自动游戏AI系统，集成了先进的计算机视觉技术、实时推理能力和自监督学习机制，实现完全自主的游戏自动化。
+这是一个基于YOLO深度学习框架的微信跳一跳自动游戏AI系统，通过YOLO返回的位置数据计算模拟点击时长，实现完全自主的游戏自动化。
+
+游戏画面⬇️
 
 ![系统界面](docs/2.png)
 
 ## 快速开始指南
 
-⚠️注意！你可以进入“Ready-To-Use“ 目录，遵循其中的 README.md 来**更便捷**地开始运行项目！⚠️
+⚠️ 注意！你可以进入“Ready-To-Use“ 目录，遵循其中的 README.md 来**更便捷**地开始运行项目！⚠️
 
 ### 环境要求
 - Python 3.8 或更高版本
@@ -15,8 +17,7 @@
 
 ### 安装步骤
 ```bash
-# 克隆仓库（如果从GitHub获取）
-git clone <repository-url>
+git clone https://github.com/LaoChouPro/Jump-Jump-AI.git
 cd jump_jump_ai
 
 # 安装依赖
